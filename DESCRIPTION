@@ -1,0 +1,18 @@
+Package: m6APrediction
+Type: Package
+Title: Random Forest Prediction of RNA m6A Modification Sites
+Version: 1.0.0
+Authors@R: person("Ruiqing", "Liu", email = "Ruiqing.Liu24@student.xjtlu.edu.cn", role = c("aut", "cre"))
+Description: Provides reusable functions for predicting N6-methyladenosine (m6A)
+    RNA modification sites from sequence and annotation features using a fitted
+    random forest classifier. The package supports both multiple-sample and
+    single-sample prediction and includes an example input dataset and fitted model.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends:
+    R (>= 3.5.0),
+    randomForest
+Suggests:
+    devtools,
+    remotes
+RoxygenNote: 7.3.3
